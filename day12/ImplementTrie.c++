@@ -69,6 +69,8 @@ int main()
                 cout << word << "--" << obj.search(word) << endl; break;
             case 2:
                 cout << word << "--" << obj.startsWith(word) << endl; break;
+            default:
+                cout << "Invalid command" << endl;
         }
     }
 
